@@ -124,7 +124,7 @@ h4 {
 .card-section-herbergements img {
     height: 124px;
     width: 100%;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     object-fit: cover;
 }
 .card-position-section-herbergements {
@@ -142,6 +142,7 @@ h4 {
     border-radius: 20px;
     background-color: #FFFFFF;
     aspect-ratio: 4/2;
+    box-shadow: 0px 0px 10px 7px rgb(228, 225, 225);
 }
 .card-container-section-herbergements {
     margin-left: 10px;
@@ -182,10 +183,11 @@ h4 {
     display: flex;
     align-items: center;
     gap: 45px;
+    margin-bottom: 30px;
 }
 .card-section-populaire img {
     width: 40%;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 15px 0px 0px 15px;
     object-fit: cover;
 }
 .card-container-section-populaire {
@@ -206,30 +208,45 @@ h4 {
     background: white;
     border-radius: 20px;
     padding: 5px;   
+    box-shadow: 0px 0px 10px 7px rgb(228, 225, 225);
 }
-.card-container-section-populaire i {}
-
 .card-section-activites {
     display: flex;
     flex-direction: column;
-    height: 490px;
-    box-shadow: 0px 0px 10px 7px #f2f2f2e7;
+    box-shadow: 0px 0px 10px 7px #f2f2f2d3;
     border-radius: 20px;
+    height: 520px;
+    width: 23%;
 }
 .card-position-section-activites {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 40px;
+    gap: 70px;
     margin-top: 15px;
 }
 .card-section-activites img {
-    height: 90%;
+    height: 195%;
     width: 100%;
     aspect-ratio: 3/2;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
-.card-section-activites {
-
+.card-container-section-activites h4 {
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+a {background-color: red;}
+footer {
+    margin-top: 75px;
+    width: 100%;
+    height: 220px;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul {
+    list-style: none;
 }

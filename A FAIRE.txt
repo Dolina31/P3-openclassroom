@@ -2,6 +2,6 @@ A FAIRE :
 - Placer afficher plus correctement
 - Placer les etoile de note "populaire" correctement
 - Placer le :hover sur le menu correctement
-- Faire les box shadows
 - modifier "activité à marseille pour que l'espace soi bon
 - modifier .card-section-activites img  en %
+- Rendre les images clicable ?
