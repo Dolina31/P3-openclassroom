@@ -1,7 +1,6 @@
 A FAIRE :
-- Placer afficher plus correctement
+- Placer afficher correctement
 - Placer les etoile de note "populaire" correctement
 - Placer le :hover sur le menu correctement
-- modifier "activité à marseille pour que l'espace soi bon
-- modifier .card-section-activites img  en %
-- Rendre les images clicable ?
+- Rendre les images populaire cliquable ?
+- Enlever le min-width à 992px
