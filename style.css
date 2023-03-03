@@ -213,7 +213,7 @@ h4 {
     display: flex;
     flex-direction: column;
     height: 490px;
-    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    box-shadow: 0px 0px 10px 7px #f2f2f2e7;
     border-radius: 20px;
 }
 .card-position-section-activites {
@@ -224,8 +224,9 @@ h4 {
     margin-top: 15px;
 }
 .card-section-activites img {
-    height: 445px;
-    width: 300px;
+    height: 90%;
+    width: 100%;
+    aspect-ratio: 3/2;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
