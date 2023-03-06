@@ -12,7 +12,6 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
 }
 .menu {
     display: flex;
@@ -23,13 +22,17 @@ a {
     color: black;
     font-size: 1.1em;
 }
-.menu :hover {
-    color: #0065FC;
-    border-top: 1px solid #0065FC;
+nav a {
+    padding-top: 40px;
+}
+nav a:hover {
+    border-top: 3px solid #0065FC;
+    border-bottom: 0;
 }
 .logo {
     width: 81px;
     height: 25px;
+    padding-top: 39px;
 }
 h1 {
     padding-top: 63px;
@@ -132,7 +135,7 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
     margin-top: 15px;
 }
 .card-section-herbergements { 
@@ -193,19 +196,19 @@ h4 {
     flex-direction: column;
     align-items: center;
     margin-top: 5px;
-    gap: 40px;
+    gap: 30px;
 }
-.card-section-populaire {
+.card-section-populaire{
     display: flex;
     flex-direction: row;
-    height: 147px;
-    width: 87%;
+    height: 149px;
+    width: 82%;
     background: white;
     border-radius: 20px;
     padding: 5px;   
     box-shadow: 0px 0px 10px 7px rgb(228, 225, 225);
 }
-article {
+.card-section-populaire a {
     position: relative;
 }
 .etoile-section-populaire {
@@ -228,7 +231,7 @@ article {
     margin-top: 15px;
 }
 .card-section-activites img {
-    height: 157%;
+    height: 385px;
     width: 100%;
     aspect-ratio: 3/2;
     border-radius: 20px 20px 0px 0px;
@@ -242,7 +245,7 @@ article {
 footer {
     margin-top: 70px;
     width: 100%;
-    height: 220px;
+    height: 100%;
     background: #F2F2F2;
     display: flex;
     gap: 150px;
@@ -262,4 +265,11 @@ h5 {
 .lien-footer {
     padding-top: 7px;
     padding-bottom: 7px;
+}
+
+@media screen and (max-width: 1134px) {
+    .card-position-section-herbergements,
+    .card-position-section-populaire {
+        font-size: 0.8em;
+    }
 }
