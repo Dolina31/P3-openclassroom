@@ -1,5 +1,6 @@
 A FAIRE :
 - Placer "afficher plus" correctement (je comprend pas pourquoi je n'arrive pas à le déplacer même avec une "class", car ça fonctionnais très bien avant d'utiliser la balise <a>)
 - Rendre les images de la section populaire cliquable sans tout déformer (oublie de ma part lors de la mise en place de la page, j'ai reussi à rendre les autres cartes cliquable mais la section populaire se déforme completement si j'utilise <a> autre que sur le container, impossible de d'intégrer l'image avec)
-- Faire en sorte que le responsive jusqu'a 992px soit correct (box du footer ne se comporte pas correctement le texte colle à droite et ne se centre pas + utilisation d'un media querie pour la taille du texte dans card herbergements et populaire car elle depassaient
-git add bonne solution ?)
+- (bientôt fini)Faire en sorte que le responsive jusqu'a 992px soit correct (utilisation d'un media querie pour la taille du texte dans card herbergements et populaire car elle depassaient bonne solution ?)
+- Renommer les propriété si possible pour une meilleur lisibilité (voir p2) pareil pour les couleurs voir p2 aussi (enregistrement)
+- Versionne tel : Changer le bouton rechercher correctement, mettre toute la section recherche correctement, diminuer le shadow-box (directement sur desktop ? faire des test)
