@@ -16,7 +16,7 @@ nav {
 }
 .menu {
     display: flex;
-    gap: 67px;
+    justify-content: space-ar;
 }
 a {
     text-decoration: none;
@@ -25,6 +25,8 @@ a {
 }
 nav a {
     padding-top: 40px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 nav a:hover {
     border-top: 3px solid #0065FC;
@@ -42,9 +44,10 @@ h1 {
 h2 {
     font-size: 1.1em;
 }
-.barre-recherche {
+form {
     display: flex;
     margin-top: 25px;
+    width: 100%;
 }
 input {
     padding: 16px;
@@ -65,14 +68,15 @@ input {
     font-weight: 700;
     width: 270px;
 }
-.submit {
+button {
     background: #0065FC;
     color: white;
     font-size: 18px;
     font-weight: 700;
     border-radius: 0px 15px 15px 0px;
+    border: 1px solid #F2F2F2;
 }
-.submit-logo {
+.bouton-icon {
     display: none;
 }
 .filtres {
@@ -148,7 +152,7 @@ h4 {
     border-radius: 20px;
     background-color: #FFFFFF;
     aspect-ratio: 4/2;
-    box-shadow: 0px 0px 10px 7px rgb(228, 225, 225);
+    box-shadow: 0px 0px 8px 3px rgb(228, 225, 225);
 }
 .card-container-section-herbergements {
     margin-left: 10px;
@@ -212,7 +216,7 @@ h4 {
     background: white;
     border-radius: 20px;
     padding: 5px;   
-    box-shadow: 0px 0px 10px 7px rgb(228, 225, 225);
+    box-shadow: 0px 0px 8px 3px rgb(228, 225, 225)
 }
 .card-section-populaire a {
     position: relative;
@@ -224,7 +228,7 @@ h4 {
 .card-section-activites {
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 10px 7px #f2f2f2d3;
+    box-shadow: 0px 0px 8px 3px rgb(228, 225, 225);
     border-radius: 20px;
     width: 23%;
 }
@@ -319,21 +323,56 @@ h5 {
         width: 100%;
         margin: auto;
     }
-    nav,
-    .section-recherche {
+    nav {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-    .section-recherche {
-       margin:auto
+    .menu {
+        display: flex;
+        justify-content: center;
     }
-    .submit {
+    nav a { 
+        padding-bottom: 20px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+    nav a:hover {
+        border-bottom: 3px solid #0065FC;
+        border-top: 0;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+    }
+    .bouton-recherche {
         display: none;
+    }
+    button {
+        width: 55px;
+    }
+    .bouton-icon {
+        display: block;
+        color: white;
+    }
+    .section-recherche {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    h1 {
+        padding-top: 20px;
     }
     .filtres {
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    h2 {
+        flex: 100%;
+    }
+    .filtres-option {
+        flex: 33% 1 1;
+        gap: 5px;
     }
     .box-position {
         display: flex;
@@ -343,7 +382,6 @@ h5 {
     .section-populaire {
         width: 100%;
         border-radius: 0;
-
     }
     .section-herbergements {
         width: 100%;
@@ -382,14 +420,6 @@ h5 {
     }
     .card-container-section-activites {
         padding-top: 0;
-    }
-    .submit-logo {
-        display: block;
-        background: #0065FC;
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
-        border-radius: 0px 15px 15px 0px;
     }
     footer {
         display: flex;
