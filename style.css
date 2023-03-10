@@ -14,19 +14,16 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.menu {
-    display: flex;
-    justify-content: space-ar;
-}
 a {
     text-decoration: none;
     color: black;
     font-size: 1.1em;
 }
+
 nav a {
     padding-top: 40px;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 nav a:hover {
     border-top: 3px solid #0065FC;
@@ -117,7 +114,6 @@ button {
 .section-herbergements {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
     background-color: #F2F2F2;
     Width: 79%;
     border-radius: 20px;
@@ -129,12 +125,19 @@ h3 {
     margin-left: 10px;
     font-weight: 700;
 }
-h4 {
+.box-position h4 {
     padding-bottom: 8px;
-    padding-top: 8px;
+    padding-top: 5px;
+}
+.box-position p {
+    font-size: 0.9em;
+}
+.section-activites h4 {
+padding-bottom: 20px;
+
 }
 .card-section-herbergements img {
-    height: 150px;
+    height: 110%;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
@@ -146,18 +149,20 @@ h4 {
     justify-content: center;
     gap: 30px;
     margin-top: 15px;
+
 }
 .card-section-herbergements {
     width: 28%;
     padding: 5px;
     border-radius: 20px;
     background-color: #FFFFFF;
-    aspect-ratio: 4/2;
     box-shadow: 0px 0px 8px 3px rgb(228, 225, 225);
 }
-.test {
+.card-container-herbergements {
     display: flex;
     flex-direction: column;
+    aspect-ratio: 4/2;
+    width: 100%;
 }
 .etoile-row {
     display: flex;
@@ -166,9 +171,6 @@ h4 {
 .afficher-plus {
     padding-top: 30px;
     padding-left: 15px;
-}
-.card-container-section-herbergements {
-    margin-left: 10px;
 }
 .box-position i {
     font-size: 12px;
@@ -183,7 +185,6 @@ h4 {
     width: 40%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-top: 40px;
 }
 .section-populaire-title-logo {
     display: flex;
@@ -200,6 +201,7 @@ h4 {
 .box-position {
     display: flex;
     gap: 45px;
+    margin-top:40px;
 }
 .card-section-populaire img {
     width: 40%;
@@ -298,15 +300,11 @@ h5 {
     }
     .section-herbergements {
         width: 95%;
-        height: 590px;
     }
     .section-populaire { 
-        height: 278px;
-        width: 101%;
+        width: 100%;
         margin-top: 0;
-    }
-    .card-section-populaire {
-        width: 28%;
+        height: 320px;
     }
     .card-position-section-populaire {
         display: flex;
