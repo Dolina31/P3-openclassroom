@@ -115,10 +115,11 @@ button {
     color: #0065FC;
 }
 .section-herbergements {
+    display: flex;
+    flex-direction: column;
     margin-top: 40px;
     background-color: #F2F2F2;
     Width: 79%;
-    Height: 625px;
     border-radius: 20px;
     padding: 20px;
 }
@@ -133,7 +134,7 @@ h4 {
     padding-top: 8px;
 }
 .card-section-herbergements img {
-    height: 124px;
+    height: 150px;
     width: 100%;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
@@ -154,6 +155,14 @@ h4 {
     aspect-ratio: 4/2;
     box-shadow: 0px 0px 8px 3px rgb(228, 225, 225);
 }
+.test {
+    display: flex;
+    flex-direction: column;
+}
+.afficher-plus {
+    padding-top: 30px;
+    padding-left: 15px;
+}
 .card-container-section-herbergements {
     margin-left: 10px;
 }
@@ -167,7 +176,6 @@ h4 {
     color: #D9D9D9;
 }
 .section-populaire {
-    height: 665px;
     width: 40%;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -177,7 +185,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px;
+    padding-top: 18px;
     padding-left: 20px;
 }
 .section-populaire-title-logo i {
@@ -187,43 +195,38 @@ h4 {
 }
 .box-position {
     display: flex;
-    align-items: center;
     gap: 45px;
-    margin-bottom: 30px;
-    width: auto;
 }
 .card-section-populaire img {
-    width: 50%;
+    width: 40%;
     border-radius: 15px 0px 0px 15px;
     object-fit: cover;
     aspect-ratio: 5/4;
 }
 .card-container-section-populaire {
+    display: flex;
+    flex-direction: column;
     margin-left: 15px;
 }
 .card-position-section-populaire {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 5px;
-    gap: 30px;
+    padding: 25px;
+    gap: 25px;
 }
 .card-section-populaire {
     display: flex;
     flex-direction: row;
-    height: 149px;
-    width: 82%;
+    width: 100%;
+    aspect-ratio: 5/2;
+    box-sizing: border-box;
     background: white;
     border-radius: 20px;
     padding: 5px;   
     box-shadow: 0px 0px 8px 3px rgb(228, 225, 225)
 }
-.card-section-populaire a {
-    position: relative;
-}
 .etoile-section-populaire {
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
 }
 .card-section-activites {
     display: flex;
