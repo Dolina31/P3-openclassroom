@@ -159,6 +159,10 @@ h4 {
     display: flex;
     flex-direction: column;
 }
+.etoile-row {
+    display: flex;
+    flex-direction: row;
+}
 .afficher-plus {
     padding-top: 30px;
     padding-left: 15px;
