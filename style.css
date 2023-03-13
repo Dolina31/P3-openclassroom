@@ -14,16 +14,18 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
 a {
     text-decoration: none;
     color: black;
     font-size: 1.1em;
 }
-
 nav a {
     padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 nav a:hover {
     border-top: 3px solid #0065FC;
@@ -301,10 +303,16 @@ h5 {
     .section-herbergements {
         width: 95%;
     }
+    .card-section-herbergements {
+        width: 28%;
+    }
     .section-populaire { 
         width: 100%;
         margin-top: 0;
         height: 320px;
+    }
+    .card-section-populaire {
+        aspect-ratio: 0;
     }
     .card-position-section-populaire {
         display: flex;
@@ -319,7 +327,7 @@ h5 {
         
     }
     .card-section-activites img {
-        height: 270px;
+        height: 215px;
     }
     
 }
@@ -335,7 +343,8 @@ h5 {
     }
     .menu {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        width: 100%;
     }
     nav a { 
         padding-bottom: 20px;
@@ -396,6 +405,9 @@ h5 {
         border-radius: 0px;
         padding: 0px;
     } 
+    .card-container-herbergements {
+        aspect-ratio: 3/1;
+    }
     .card-position-section-herbergements {
         display: flex;
         flex-direction: column;
