@@ -1,7 +1,6 @@
 A FAIRE :
-- Faire en sorte que le responsive jusqu'a 992px soit correct (utilisation d'un media querie pour la taille du texte dans card herbergements et populaire car elle depassaient bonne solution ?)
-- Renommer les propriété si possible pour une meilleur lisibilité (voir p2) pareil pour les couleurs voir p2 aussi (enregistrement)
-- Modifier le menu de navigation pour que les lien cliquable et le :hover soient plus fidele à la maquette
+- Renommer les propriété si possible pour une meilleur lisibilité (voir p2)
+- Modifier le menu de navigation desktop
 - Retester les code avec w3c
-- Importer la police gras 
 - "Ranger" et rendre le css plus clair avec des commentaires et des séparations et html aussi
+- section populaire desktop monte regler ça

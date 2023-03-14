@@ -17,7 +17,6 @@ nav {
 }
 .menu {
     display: flex;
-    gap: 70px;
     padding-right: 45px;
 }
 a {
@@ -26,7 +25,10 @@ a {
     font-size: 1.1em;
 }
 nav a {
+    text-align: center;
     padding-top: 40px;
+    padding-right: 28px;
+    padding-left: 28px;
 }
 nav a:hover {
     color: #0065FC;
@@ -320,6 +322,7 @@ h5 {
         display: flex;
         flex-direction: row;
         padding: 17px;
+        gap: 11px;
     }
     .card-position-section-populaire a {
         width: 100%;
@@ -354,10 +357,14 @@ h5 {
         display: flex;
         justify-content: space-around;
         width: 100%;
+        padding-right: 0;
     }
     nav a { 
         padding-bottom: 20px;
+        width: 50%;
         border-bottom: 3px solid #F2F2F2;
+        padding-left: 0;
+        padding-right: 0;
     }
     nav a:hover {
         border-bottom: 3px solid #0065FC;
