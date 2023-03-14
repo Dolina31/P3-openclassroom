@@ -7,6 +7,7 @@ body {
     margin-left: auto; 
     width: 96%;
     max-width: 1400px;
+    font-weight: 500;
 }
 nav {
     display: flex;
@@ -16,8 +17,8 @@ nav {
 }
 .menu {
     display: flex;
-    justify-content: space-around;
-    width: 40%;
+    gap: 70px;
+    padding-right: 45px;
 }
 a {
     text-decoration: none;
@@ -28,6 +29,7 @@ nav a {
     padding-top: 40px;
 }
 nav a:hover {
+    color: #0065FC;
     border-top: 3px solid #0065FC;
     border-bottom: 0;
 }
@@ -130,9 +132,10 @@ h3 {
 .box-position h4 {
     padding-bottom: 8px;
     padding-top: 5px;
+    font-size: 0.8em;
 }
 .box-position p {
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 .section-activites h4 {
 padding-bottom: 20px;
@@ -173,6 +176,7 @@ padding-bottom: 20px;
 .afficher-plus {
     padding-top: 30px;
     padding-left: 15px;
+    font-weight: 700;
 }
 .box-position i {
     font-size: 12px;
@@ -202,7 +206,7 @@ padding-bottom: 20px;
 }
 .box-position {
     display: flex;
-    gap: 45px;
+    gap: 35px;
     margin-top:40px;
 }
 .card-section-populaire img {
@@ -284,21 +288,20 @@ h5 {
     padding-bottom: 7px;
 }
 
-@media screen and (max-width: 1134px) {
-    .card-position-section-herbergements,
-    .card-position-section-populaire,
-    .filtres{
-        font-size: 0.9em;
-    }
-}
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         width: 93%;
     }
+    .filtres-option {
+        font-size: 0.8em;
+    }
     .box-position {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        aspect-ratio: 4/3;
     }
     .section-herbergements {
         width: 95%;
@@ -308,21 +311,23 @@ h5 {
     }
     .section-populaire { 
         width: 100%;
-        margin-top: 0;
-        height: 320px;
+        height: 41%;
     }
     .card-section-populaire {
         aspect-ratio: 0;
-        width: 93%;
     }
     .card-position-section-populaire {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        width: 100%;
-        height: 31%;
-        padding-top: 35px;
+        padding: 17px;
     }
+    .card-position-section-populaire a {
+        width: 100%;
+    }
+    .card-section-populaire img {
+        aspect-ratio: 4/5;
+    }
+    
     h4 {
         padding-top: 0;
     }
@@ -335,7 +340,7 @@ h5 {
     }
     
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     body {
         width: 100%;
         margin: auto;
@@ -390,9 +395,10 @@ h5 {
         flex: 100%;
     }
     .filtres-option {
+        
         gap: 5px;
         width: 33%;
-        gap: 5px;
+        font-size: 0.8em;
     }
     .box-position {
         display: flex;
