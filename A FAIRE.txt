@@ -1,6 +1,3 @@
 A FAIRE :
-- Renommer les propriété si possible pour une meilleur lisibilité (voir p2)
-- Modifier le menu de navigation desktop
-- Retester les code avec w3c
-- "Ranger" et rendre le css plus clair avec des commentaires et des séparations et html aussi
-- section populaire desktop monte regler ça
+- (FINI ?) Modifier le menu de navigation (taille identiques ?)
+- Trouver pourquoi version firefox ne fonctionne pas pareil
