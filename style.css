@@ -238,7 +238,8 @@ h3 {
 .card-container-section-populaire {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
+    margin-left: 10px;
+    aspect-ratio: 9/6;
 }
 .etoile-section-populaire {
     margin-top: auto;
@@ -259,7 +260,7 @@ h3 {
     width: 23%;
 }
 .card-section-activites img {
-    height: 385px;
+    height: 360px;
     width: 100%;
     aspect-ratio: 3/2;
     border-radius: 20px 20px 0px 0px;
@@ -328,6 +329,9 @@ h5 {
     }
     .card-position-section-populaire a {
         width: 100%;
+    }
+    .card-container-section-populaire {
+        aspect-ratio: 7/6;
     }
     .card-section-populaire img {
         aspect-ratio: 4/5;
@@ -420,6 +424,9 @@ h5 {
     }
     .card-section-populaire {
         aspect-ratio: 6/2;
+    }
+    .card-container-section-populaire {
+        aspect-ratio: 5/3;
     }
     .section-hebergements {
         width: 100%;
